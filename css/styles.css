@@ -1,0 +1,52 @@
+/* main color #757575;
+  */
+/* seconady color #212121;
+*/
+/* white  #FFFFFF */
+/* accent */
+/* blue  #2196F3 */
+body {
+background-color: #FFFFFF;
+color: #757575;
+}
+ul {list-style: none;}
+                    /* header */
+.logo {
+
+}
+.logo:hover, .logo:focus {
+  color: #2196F3;
+}
+.logo-part {
+color: #2196F3; 
+}
+.nav-site {
+
+}
+.nav-site-link {
+  color:#212121;;
+}
+.nav-site-link:hover, 
+.nav-site-link:focus  {
+color: #2196F3;
+}
+                      /* main  */
+.hero-title {
+/* color: #FFFFFF; */
+}
+.section-title {
+color: #212121;
+}
+.advantages-title {
+  color: #212121;
+}
+.team-name {
+  color: #212121;}
+
+                     /* portolio */
+.filter-item {
+ color: rgb(194, 230, 35); 
+}
+.cards-disc {
+ color:#212121 
+}
