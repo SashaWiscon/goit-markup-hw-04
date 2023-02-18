@@ -5,48 +5,67 @@
 /* white  #FFFFFF */
 /* accent */
 /* blue  #2196F3 */
+:root {
+--primary-text-color: #757575;
+--secondary-text-color: #212121;
+--accent-text-color: #2196F3;
+--white-color: #ffffff;  
+}
 body {
 background-color: #FFFFFF;
-color: #757575;
+color: var(--primary-text-color);
 }
 ul {list-style: none;}
                     /* header */
 .logo {
 
 }
-.logo:hover, .logo:focus {
-  color: #2196F3;
-}
 .logo-part {
-color: #2196F3; 
+color: var(--accent-text-color); 
 }
-.nav-site {
 
-}
 .nav-site-link {
-  color:#212121;;
+  color: var(--secondary-text-color);
 }
 .nav-site-link:hover, 
 .nav-site-link:focus  {
-color: #2196F3;
+color: var(--accent-text-color);
 }
+.nav-site .nav-site-link.current {
+  color: var(--accent-text-color);
+}
+.contacts-text {
+  color: var(--primary-text-color);
+}
+.contacts-text:hover, 
+.contacts-text:focus {
+  color: var(--accent-text-color);
+}  
+ 
                       /* main  */
 .hero-title {
 /* color: #FFFFFF; */
 }
+.hero-btn {
+color: var(--white-color);
+background-color: var(--accent-text-color);
+}
 .section-title {
-color: #212121;
+color: var(--secondary-text-color);
 }
 .advantages-title {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 .team-name {
-  color: #212121;}
+  color: var(--secondary-text-color);}
 
                      /* portolio */
 .filter-item {
- color: rgb(194, 230, 35); 
+ color: var(--secondary-text-color); 
 }
 .cards-disc {
- color:#212121 
+ color: var(--secondary-text-color)
+}
+.cards-text {
+  color: var(--primary-text-color)
 }
