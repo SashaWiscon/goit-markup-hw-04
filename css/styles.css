@@ -131,16 +131,14 @@ text-transform: uppercase;
 }
 .adress-mail,
 .adress-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
                                    /* portolio */
-.sect-cards {
-  /* background-color: ?????? */
-} 
-                      
+                   
 .cards a {
   text-decoration: none;
 }                                    
