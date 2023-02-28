@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div class="container">
       <nav>
           <a lang="en" class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
         <ul class="nav-site">
@@ -22,7 +24,11 @@
         <li><a class="contacts-text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="contacts-text" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
+    <div class="container">
+      
+    
     <main>
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
@@ -30,6 +36,7 @@
       </section>
 
       <section class="section">
+        <div class="container">
         <h2 class="section-title" hidden>TEXT</h2>
         <ul class="advantages">
           <li>
@@ -60,9 +67,10 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
-      <section class="section">
+      <section class="section deal">
         <h2 class="section-title">Чим ми займаємося</h2>
         <ul>
           <li>
@@ -92,10 +100,10 @@
         </ul>
       </section>
       <section class="section team-sect">
-        <h2 class="section-title">Наша команда</h2>
+        <h2 class="section-title title-team">Наша команда</h2>
         <ul class="team">
           <li>
-            <img
+            <img class="team-image"
               src="./images/ph1.jpg"
               width="270"
               height="260"
@@ -105,7 +113,7 @@
             <p class="team-position" lang="en">Product Designer</p>
           </li>
           <li>
-            <img
+            <img class="team-image"
               src="./images/ph2.jpg"
               width="270"
               height="260"
@@ -115,7 +123,7 @@
             <p class="team-position" lang="en">Frontend Developer</p>
           </li>
           <li>
-            <img
+            <img class="team-image"
               src="./images/ph3.jpg"
               width="270"
               height="260"
@@ -125,7 +133,7 @@
             <p class="team-position" lang="en">Marketing</p>
           </li>
           <li>
-            <img
+            <img class="team-image"
               src="./images/ph4.jpg"
               width="270"
               height="260"
@@ -136,6 +144,7 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
 
     <footer class="footer">

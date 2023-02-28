@@ -16,12 +16,19 @@ background-color: #FFFFFF;
 color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
-ul {list-style: none;}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .pointer {
   cursor: pointer;
 }
 
                                      /* header */
+.header {
+  background-color: #ffffcb;
+}                                    
 .logo {
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
@@ -59,39 +66,71 @@ color: var(--accent-text-color);
 .contacts-text:focus {
   color: var(--accent-text-color);
 }  
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+  background-color: aquamarine;
+}
  
                                    /* main  */
-.hero { background-color: #2F303A;}                                     
+.hero { 
+  margin-top: 0;
+  margin-bottom: 94px;
+background-color: #2F303A;
+text-align: center;
+width: 1600px;
+height: 596px;
+}  
+.section {
+  margin-top: 0;
+  margin-bottom: 94px;
+}                                   
 .hero-title {
+  background-color: purple;
+  margin-top: 200px;
+  margin-bottom: 30px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
 color: #FFFFFF;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .hero-btn {
+  display: inline-block;
+  padding: 10px 32px;
+  margin-top: 0;
+  margin-bottom: 198px;
+  min-width: 216px;
+  height: 50px;
   font-family: inherit;
-  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   color: var(--white-color);
   align-items: center;
-  text-align: center;
   background-color: var(--accent-text-color);
-  border: none;
-  border-radius: 4px;
-}
+  border: 1px solid transparent;
+  border-radius: 7px;
+  }
 .section-title {
+  margin-top: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   color: var(--secondary-text-color);
   text-align: center; 
 }
+.deal > .section-title {
+  margin-bottom: 50px;
+  margin-top: 0;
+  background-color: #765496;
+}
 .advantages-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -99,12 +138,30 @@ text-transform: uppercase;
   text-transform: uppercase; 
 }
 .advantages-item {
+  margin-bottom: 0px;
+  margin-top: 0;
   font-size: 14px;
   line-height: 1.7; 
 }
+
+
 .team-sect {background-color: #F5F4FA;
 } 
+.title-team {
+  margin-top: 0;
+  margin-bottom: 50px;
+  }
+  .team {
+    margin-top: 0;
+    margin-bottom: 94px;
+  }
+  .team-image {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 .team-name {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -112,6 +169,8 @@ text-transform: uppercase;
   text-align: center;
 }
 .team-position {
+  margin-top: 0;
+  margin-bottom: 30px ;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
