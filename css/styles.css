@@ -81,7 +81,7 @@ color: var(--accent-text-color);
 background-color: #2F303A;
 text-align: center;
 width: 1600px;
-height: 596px;
+height: 600px;
 }  
 .section {
   margin-top: 0;
@@ -100,9 +100,9 @@ text-transform: uppercase;
 }
 .hero-btn {
   display: inline-block;
-  padding: 10px 32px;
+  padding: 10px 20px;
   margin-top: 0;
-  margin-bottom: 198px;
+  margin-bottom: 200px;
   min-width: 216px;
   height: 50px;
   font-family: inherit;
