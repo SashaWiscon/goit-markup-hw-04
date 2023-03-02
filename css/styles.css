@@ -30,6 +30,7 @@ ul {
   background-color: #ffffcb;
 }                                    
 .logo {
+display:inline-block;
 font-family: 'Raleway', sans-serif;
 font-size: 26px;
 line-height: 1.2;
@@ -78,6 +79,8 @@ color: var(--accent-text-color);
 .hero { 
   margin-top: 0;
   margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 background-color: #2F303A;
 text-align: center;
 width: 1600px;
@@ -89,7 +92,7 @@ height: 600px;
 }                                   
 .hero-title {
   background-color: purple;
-  margin-top: 200px;
+  margin-top: 0;
   margin-bottom: 30px;
 font-weight: 900;
 font-size: 44px;
@@ -102,7 +105,7 @@ text-transform: uppercase;
   display: inline-block;
   padding: 10px 20px;
   margin-top: 0;
-  margin-bottom: 200px;
+  margin-bottom: 0;
   min-width: 216px;
   height: 50px;
   font-family: inherit;
@@ -177,8 +180,15 @@ text-transform: uppercase;
   text-align: center;
 }
                                  /* footer */
-.footer {background-color: #2F303A;}                                  
-.adress-location {
+.footer {
+ width: 1600px;
+ height: 251px;
+ background-color: #2F303A;} 
+.footer-logo {
+ margin-top: 0;
+ margin: bottom 28px;; 
+}                                 
+.address-location {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -189,8 +199,8 @@ text-transform: uppercase;
 .logo-part-bottom {
   color: #FFFFFF;
 }
-.adress-mail,
-.adress-tel {
+.address-mail,
+.address-tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
