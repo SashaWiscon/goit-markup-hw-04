@@ -24,11 +24,21 @@ ul {
 .pointer {
   cursor: pointer;
 }
+.flex-added { 
+  /* main-nav from mentor; */
+  display: flex;
+  align-items: center;
+} 
 
                                      /* header */
 .header {
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
+  /* Width: 1600px;
+  height: 80px; */
   background-color: #ffffcb;
-}                                    
+}   
+                                
 .logo {
 display:inline-block;
 font-family: 'Raleway', sans-serif;
@@ -40,8 +50,17 @@ text-decoration: none;
 .logo-part {
 color: #000000; 
 }
-
+.nav-site {
+  display:flex;
+  margin-left: 93px;
+}
+.nav-site-item:not(:last-child) {
+  margin-right: 50px;
+}
 .nav-site-link {
+display: block;  
+padding-top: 32px;
+padding-bottom: 32px;
 font-family: inherit; 
 font-weight: 500;
 font-size: 14px;
@@ -56,6 +75,16 @@ color: var(--accent-text-color);
 .nav-site .nav-site-link.current {
   color: var(--accent-text-color);
 }
+.contacts {
+  display: flex;
+  margin-left: auto;
+  }
+  .contacts .contacts-item + .contacts-item {
+margin-left: 40px;
+  }
+  .contacts > li:not(:last-child)
+  {margin-right: 40px;
+  }
 .contacts-text {
   font-weight: 500;
   font-size: 14px;
@@ -92,8 +121,10 @@ height: 600px;
 }                                   
 .hero-title {
   background-color: purple;
-  margin-top: 0;
-  margin-bottom: 30px;
+  width: 696px;
+  height: 120px;
+  /* text-align: center;  not works?*/
+  margin: 0 auto 30px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
@@ -131,6 +162,18 @@ text-transform: uppercase;
   margin-top: 0;
   background-color: #765496;
 }
+.deal-list {
+  display: flex;
+}
+.advantages {
+  display: flex;
+}
+.advantages .advantages-item + .advantages-item {
+  margin-left: 30px;
+}
+.advantages-item {
+width: 270px;
+}
 .advantages-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -140,7 +183,7 @@ text-transform: uppercase;
   color: var(--secondary-text-color);
   text-transform: uppercase; 
 }
-.advantages-item {
+.advantages-text {
   margin-bottom: 0px;
   margin-top: 0;
   font-size: 14px;
@@ -156,6 +199,7 @@ text-transform: uppercase;
   background-color: #cca55d;
   }
   .team {
+    display: flex;
     margin-top: 0;
     margin-bottom: 94px;
   }
@@ -188,9 +232,10 @@ text-transform: uppercase;
  background-color: #2F303A;} 
 .footer-logo {
  margin-top: 0;
- margin: bottom 28px;; 
+ margin-bottom: 26px; 
 }                                 
 .address-location {
+  margin-bottom: 12px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -209,12 +254,36 @@ text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.address-mail {
+  margin-bottom: 12px;
+}
                                    /* portolio */
-                   
+.header.header-portfolio {
+  margin-bottom: 94px;
+}  
+.cards-sect {
+  padding-right: 15px;
+  padding-right: 15px;
+  width: 1360px;
+}                                 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}                   
 .cards a {
   text-decoration: none;
-}                                    
+}  
+.cards-image {
+  margin-bottom: 20px;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+}                                  
 .filter-item {
+ padding: 6px 22px; 
  font-weight: 500;
  font-size: 16px;
  line-height: 1.6;
@@ -229,7 +298,22 @@ text-transform: uppercase;
   color: var(--white-color);
   background-color: var(--accent-text-color);
 }
+.cards-item {
+  background-color: #ce7dc6;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
+  height: 404px;
+}
+.cards-item:nth-child(3n) {
+  margin-right: 0;
+}
+.cards-item:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
 .cards-disc {
+  margin-top: 0;
+ margin-bottom: 4px;
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
