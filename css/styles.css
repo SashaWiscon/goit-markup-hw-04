@@ -32,8 +32,6 @@ ul {
 
                                      /* header */
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
   /* Width: 1600px;
   height: 80px; */
   background-color: #ffffcb;
@@ -112,7 +110,7 @@ margin-left: 40px;
   padding-bottom: 200px;
 background-color: #2F303A;
 text-align: center;
-width: 1600px;
+max-width: 1600px;
 /* height: 600px; */
 }  
 .section {
@@ -198,6 +196,10 @@ width: 270px;
 
 
 .team-sect {background-color: #F5F4FA;
+  margin-bottom:0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1600px;
 } 
 .title-team {
   margin-top: 0;
@@ -206,8 +208,11 @@ width: 270px;
   }
   .team {
     display: flex;
+    justify-content: center;
     margin-top: 0;
-    margin-bottom: 94px;
+  }
+  .team-item:not(:last-child) {
+    margin-right: 30px;
   }
   .team-image {
     margin-top: 0;
@@ -236,7 +241,7 @@ width: 270px;
  background-color: #2F303A;} 
 .footer-logo {
  margin-top: 0;
- margin-bottom: 26px; 
+ margin-bottom: 28px; 
 }                                 
 .address-location {
   margin-bottom: 12px;
@@ -329,13 +334,16 @@ width: 270px;
 .cards-disc {
   margin-top: 0;
  margin-bottom: 4px;
+ margin-left: 24px;
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
  color: var(--secondary-text-color);
 }
 .cards-text {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
   font-size: 16px;
   line-height: 1.9;
   color: var(--primary-text-color);
