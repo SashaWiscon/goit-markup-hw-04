@@ -136,7 +136,7 @@ text-transform: uppercase;
   padding: 10px 20px;
   margin-top: 0;
   margin-bottom: 0;
-  min-width: 216px;
+  /* min-width: 200px; */
   /* height: 50px; */
   font-family: inherit;
   font-weight: 700;
