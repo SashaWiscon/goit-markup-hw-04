@@ -34,7 +34,8 @@ ul {
 .header {
   /* Width: 1600px;
   height: 80px; */
-  background-color: #ffffcb;
+  /* background-color: #ffffcb; */
+  border-bottom: 1px solid #ececec;
 }   
                                 
 .logo {
@@ -99,12 +100,13 @@ margin-left: 40px;
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
  
                                    /* main  */
 .hero { 
-  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -118,7 +120,7 @@ max-width: 1600px;
   margin-bottom: 94px;
 }                                   
 .hero-title {
-  background-color: purple;
+  /* background-color: purple; */
   width: 696px;
   /* text-align: center; */
   margin: 0 auto 30px;
@@ -157,7 +159,7 @@ text-transform: uppercase;
 .deal > .section-title {
   margin-bottom: 50px;
   margin-top: 0;
-  background-color: #765496;
+  /* background-color: #765496; */
 }
 .deal-list {
   display: flex;
@@ -174,7 +176,7 @@ margin-right: 30px;
   margin-left: 30px;
 }
 .advantages-item {
-  background-color: #e1c7e7;
+  /* background-color: #e1c7e7; */
   /* justify-content: space-evenly;  doest work */
 width: 270px;
 }
@@ -196,15 +198,16 @@ width: 270px;
 
 
 .team-sect {background-color: #F5F4FA;
-  margin-bottom:0;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
+  max-width: 1600px;
 } 
 .title-team {
   margin-top: 0;
   margin-bottom: 50px;
-  background-color: #cca55d;
+  /* background-color: #cca55d; */
   }
   .team {
     display: flex;
@@ -271,10 +274,10 @@ width: 270px;
   margin-bottom: 94px;
 }  
 .cards-sect {
-  background-color: #e1c7e7;
+  /* background-color: #e1c7e7; */
 }   
 .portfolio-container {
-  background-color: #3fb2c7;
+  /* background-color: #3fb2c7; */
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -294,8 +297,6 @@ width: 270px;
 }
 .filter {
   display: flex;
-  /* margin-right: auto;
-  margin-left: auto; */
   justify-content: center;
   margin-bottom: 50px;
 } 
@@ -320,10 +321,11 @@ width: 270px;
   background-color: var(--accent-text-color);
 }
 .cards-item {
-  background-color: #ce7dc6;
+  /* background-color: #ce7dc6; */
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
+  border-bottom: 1px solid #eeeeee ;
 }
 .cards-item:nth-child(3n) {
   margin-right: 0;
