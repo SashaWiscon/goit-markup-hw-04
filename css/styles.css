@@ -16,10 +16,23 @@ background-color: #FFFFFF;
 color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
+p, ul, ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+ }
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+img {
+  display: block;
 }
 .pointer {
   cursor: pointer;
@@ -78,9 +91,9 @@ color: var(--accent-text-color);
   display: flex;
   margin-left: auto;
   }
-  .contacts .contacts-item + .contacts-item {
+  /* .contacts .contacts-item + .contacts-item {
 margin-left: 40px;
-  }
+  } */
   .contacts > li:not(:last-child)
   {margin-right: 40px;
   }
@@ -107,7 +120,6 @@ margin-left: 40px;
 .hero { 
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
 background-color: #2F303A;
@@ -116,8 +128,8 @@ max-width: 1600px;
 /* height: 600px; */
 }  
 .section {
-  margin-top: 0;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }                                   
 .hero-title {
   /* background-color: purple; */
@@ -136,7 +148,6 @@ text-transform: uppercase;
   padding: 10px 20px;
   margin-top: 0;
   margin-bottom: 0;
-  /* min-width: 200px; */
   /* height: 50px; */
   font-family: inherit;
   font-weight: 700;
@@ -200,8 +211,6 @@ width: 270px;
 .team-sect {background-color: #F5F4FA;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
   max-width: 1600px;
 } 
 .title-team {
@@ -219,8 +228,13 @@ width: 270px;
   }
   .team-image {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
+  .team-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
 .team-name {
   margin-top: 0;
   margin-bottom: 10px;
@@ -232,7 +246,7 @@ width: 270px;
 }
 .team-position {
   margin-top: 0;
-  margin-bottom: 30px ;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -245,7 +259,10 @@ width: 270px;
 .footer-logo {
  margin-top: 0;
  margin-bottom: 28px; 
-}                                 
+}   
+.adress-list-item:not(:last-child) {
+margin-bottom: 12px;
+}                              
 .address-location {
   margin-bottom: 12px;
   font-style: normal;
@@ -266,35 +283,9 @@ width: 270px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.address-mail {
-  margin-bottom: 12px;
-}
-                                   /* portolio */
-.header.header-portfolio {
-  margin-bottom: 94px;
-}  
-.cards-sect {
-  /* background-color: #e1c7e7; */
-}   
-.portfolio-container {
-  /* background-color: #3fb2c7; */
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 1200px;
 
-}                            
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-}                   
-.cards a {
-  text-decoration: none;
-}  
-.cards-image {
-  margin-bottom: 20px;
-}
+                                   /* portolio */                              
+
 .filter {
   display: flex;
   justify-content: center;
@@ -320,12 +311,21 @@ width: 270px;
   color: var(--white-color);
   background-color: var(--accent-text-color);
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}                   
+.cards a {
+  text-decoration: none;
+}  
+.cards-image {
+  margin-bottom: 0;
+}
 .cards-item {
   /* background-color: #ce7dc6; */
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  border-bottom: 1px solid #eeeeee ;
 }
 .cards-item:nth-child(3n) {
   margin-right: 0;
@@ -333,10 +333,19 @@ width: 270px;
 .cards-item:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
+.cards-content {
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-left: 24px;
+border-right: 1px solid #eeeeee ;
+border-bottom: 1px solid #eeeeee ;
+border-left: 1px solid #eeeeee ;
+}
 .cards-disc {
   margin-top: 0;
  margin-bottom: 4px;
- margin-left: 24px;
+ margin-left: 0;
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
@@ -344,8 +353,8 @@ width: 270px;
 }
 .cards-text {
   margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  margin-bottom: 0;
+  margin-left: 0;
   font-size: 16px;
   line-height: 1.9;
   color: var(--primary-text-color);

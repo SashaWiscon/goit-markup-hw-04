@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header class="header header-portfolio">
+    <header class="header">
       <div class="container flex-added">
         <nav class="flex-added">
             <a lang="en" class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -27,8 +27,8 @@
           </div>
     </header>
     <main>
-      <section class="section cards-sect">
-      <div class="portfolio-container">
+      <section class="section">
+      <div class="container">
       <ul class="filter">
         <li class="filter-item"><button class="filter-btn pointer" type="button">Усі</button></li>
         <li class="filter-item"><button class="filter-btn pointer" type="button">Веб-сайти</button></li>
@@ -42,64 +42,82 @@
           <li class="cards-item"> 
             <a href="">
               <img class="cards-image" src="./images/pict1.jpg" alt="Pictures of 3 people" />
-            <h2 class="cards-disc">Технокряк</h2>
+            <div class="cards-content">
+              <h2 class="cards-disc">Технокряк</h2>
             <p class="cards-text">Веб сайт</p>
+            </div>
             </a>
           </li>
           <li class="cards-item">
             <a href="">
               <img class="cards-image" src="./images/pict2.jpg" alt="Two basketball players" />
-            <h2 class="cards-disc">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+            <div class="cards-content">
+              <h2 class="cards-disc">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
             <p class="cards-text">Дизайн</p>
+            </div>
             </a>
           </li>
           <li class="cards-item">
             <a href="">
               <img class="cards-image" src="./images/pict3.jpg" alt="Restaurant logotype" />
-            <h2 class="cards-disc">Ресторан <span lang="en">Seafood</span></h2>
+            <div class="cards-content">
+              <h2 class="cards-disc">Ресторан <span lang="en">Seafood</span></h2>
             <p class="cards-text">Додаток</p>
+            </div>
             </a>
           </li>
           <li class="cards-item">
             <a href="">
               <img class="cards-image" src="./images/pict4.jpg" alt="Earphones" />
+           <div class="cards-content">
             <h2 class="cards-disc">Проєкт <span lang="en">Prime</span></h2>
             <p class="cards-text">Маркетинг</p>
+           </div>
             </a>
           </li>
           <li class="cards-item">
            <a href="">
             <img class="cards-image" src="./images/pict5.jpg" alt="Two boxes" />
-            <h2 class="cards-disc">Проєкт <span lang="en">Boxes</span></h2>
+            <div class="cards-content">
+              <h2 class="cards-disc">Проєкт <span lang="en">Boxes</span></h2>
             <p class="cards-text">Додаток</p>
+            </div>
            </a>
           </li>
           <li class="cards-item">
           <a href="">
             <img class="cards-image" src="./images/pict6.jpg" alt="Monitor of computer" />
-            <h2 class="cards-disc" lang="en">Inspiration has no Borders</h2>
+            <div class="cards-content">
+              <h2 class="cards-disc" lang="en">Inspiration has no Borders</h2>
             <p class="cards-text">Веб-сайт</p>
+            </div>
           </a>
           </li>
           <li class="cards-item">
             <a href="">
               <img class="cards-image" src="./images/pict7.jpg" alt="Opened book" />
-            <h2 class="cards-disc">Видання<span lang="en"> Limited Edition</span></h2>
+            <div class="cards-content">
+              <h2 class="cards-disc">Видання<span lang="en"> Limited Edition</span></h2>
             <p class="cards-text">Дизайн</p>
+            </div>
             </a>
           </li>
           <li class="cards-item">
             <a href="">
               <img class="cards-image" src="./images/pict8.jpg" alt="Letters on white paper" />
-            <h2 class="cards-disc">Проєкт <span lang="en">LAB</span></h2>
+            <div class="cards-content">
+              <h2 class="cards-disc">Проєкт <span lang="en">LAB</span></h2>
             <p class="cards-text">Маркетинг</p>
+            </div>
             </a>
           </li>
           <li class="cards-item">
             <a href="">
               <img class="cards-image" src="./images/pict9.jpg" alt="Opened laptop" />
+           <div class="cards-content">
             <h2 class="cards-disc" lang="en">Growing Business</h2>
             <p class="cards-text">Додаток</p>
+           </div>
             </a>
           </li>
         </ul>
@@ -111,8 +129,8 @@
       <div class="container">
         <a lang="en" class="logo footer-logo " href="./index.html">Web<span class="logo-part-bottom">Studio</span></a>
         <address>  
-        <ul>
-            <li>
+        <ul class="adress-list">
+            <li class="adress-list-item">
               <a class="address-location"
                 href="https://goo.gl/maps/1TbnPT3aEC4T48xM6"
                 target="_blank"
@@ -120,8 +138,8 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="adress-list-item"><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="adress-list-item"><a class="address-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
       </div>
