@@ -167,17 +167,18 @@ text-transform: uppercase;
   color: var(--secondary-text-color);
   text-align: center; 
 }
-.deal > .section-title {
-  margin-bottom: 50px;
-  margin-top: 0;
-  /* background-color: #765496; */
-}
-.deal-list {
-  display: flex;
-  justify-content: center;
-}
-.deal-list-item:not(:last-child) {
-margin-right: 30px;
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages {
   display: flex;
@@ -206,7 +207,18 @@ width: 270px;
   font-size: 14px;
   line-height: 1.7; 
 }
-
+.deal > .section-title {
+  margin-bottom: 50px;
+  margin-top: 0;
+  /* background-color: #765496; */
+}
+.deal-list {
+  display: flex;
+  justify-content: center;
+}
+.deal-list-item:not(:last-child) {
+margin-right: 30px;
+}
 
 .team-sect {background-color: #F5F4FA;
   margin-right: auto;
@@ -352,8 +364,6 @@ border-left: 1px solid #eeeeee ;
  color: var(--secondary-text-color);
 }
 .cards-text {
-  margin-top: 0;
-  margin-bottom: 0;
   margin-left: 0;
   font-size: 16px;
   line-height: 1.9;
