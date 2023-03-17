@@ -158,6 +158,10 @@ text-transform: uppercase;
   border: 1px solid transparent;
   border-radius: 7px;
   }
+  .advantages-section {
+    padding-top: 94px;
+    padding-bottom: 0;
+  }
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -182,14 +186,12 @@ text-transform: uppercase;
 }
 .advantages {
   display: flex;
-
 }
 .advantages .advantages-item + .advantages-item {
   margin-left: 30px;
 }
 .advantages-item {
   /* background-color: #e1c7e7; */
-  /* justify-content: space-evenly;  doest work */
 width: 270px;
 }
 .advantages-title {
@@ -223,7 +225,6 @@ margin-right: 30px;
 .team-sect {background-color: #F5F4FA;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1600px;
 } 
 .title-team {
   margin-top: 0;
