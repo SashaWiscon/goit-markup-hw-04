@@ -207,6 +207,7 @@ width: 270px;
 .advantages-icons-item {
   width: 70px;
   height: 70px;
+  object-fit: contain;
 }
 /* .advantages-item::before { фон квадрата
 display: block;
