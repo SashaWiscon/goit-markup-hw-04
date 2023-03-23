@@ -196,20 +196,29 @@ text-transform: uppercase;
   /* background-color: #e1c7e7; */
 width: 270px;
 }
-.advantages-item::before {
+.advantages-icons {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  /* background-color: #F5F4FA; */
+}
+.advantages-icons-item {
+  width: 70px;
+  height: 70px;
+}
+/* .advantages-item::before { фон квадрата
 display: block;
-/* outline: 1px solid blueviolet; */
+outline: 1px solid blueviolet;
   height: 120px;
 left: 215px;
 top: 774px;
 content: "";
 background-size:contain;  
-/* background-repeat: no-repeat; */
-background-color: #f5f4fa;
-}
-.icon-antenna::before {
-  background-image: url(../images/antenna-icon.svg);
-}
+background-color: #f5f4fa;}
+.icon-antenna::before { сама иконка в квадрате 
+  background-image: url(../images/icon-antenna.svg);
+} */
 .advantages-title {
   margin-top: 0;
   margin-bottom: 10px;
