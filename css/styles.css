@@ -193,7 +193,6 @@ text-transform: uppercase;
   margin-left: 30px;
 }
 .advantages-item {
-  /* background-color: #e1c7e7; */
 width: 270px;
 }
 .advantages-icons {
@@ -236,11 +235,7 @@ background-color: #f5f4fa;}
   font-size: 14px;
   line-height: 1.7; 
 }
-.deal > .section-title {
-  margin-bottom: 50px;
-  margin-top: 0;
-  /* background-color: #765496; */
-}
+
 .deal-list {
   display: flex;
   justify-content: center;
@@ -291,6 +286,27 @@ margin-right: 30px;
   line-height: 1.2;
   text-align: center;
 }
+.clients-list {
+  background-color: rgb(171, 204, 223);
+  display:flex;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center; */ ?????????????
+  
+}
+.clients-list-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 5px;
+}
+.clients-list-item + .clients-list-item {
+  margin-left: 30px;
+}
+.item-logo {
+  width: 106px;
+  height: 60px;
+}
                                  /* footer */
 .footer {
   padding-top: 60px;
@@ -340,7 +356,7 @@ margin-bottom: 12px;
  font-size: 16px;
  line-height: 1.6;
  color: var(--secondary-text-color);
- text-align: center; 
+ /* text-align: center;???????????????????*/
  background-color: #F5F4FA;
  border: none;
  border-radius: 4px;
@@ -362,7 +378,6 @@ margin-bottom: 12px;
   margin-bottom: 0;
 }
 .cards-item {
-  /* background-color: #ce7dc6; */
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
