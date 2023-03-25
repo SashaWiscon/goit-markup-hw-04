@@ -47,7 +47,6 @@ img {
 .header {
   /* Width: 1600px;
   height: 80px; */
-  /* background-color: #ffffcb; */
   border-bottom: 1px solid #ececec;
 }   
                                 
@@ -170,7 +169,7 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  color: var(--secondary-text-color);
+justify-content  color: var(--secondary-text-color);
   text-align: center; 
 }
 .hidden {
@@ -286,15 +285,18 @@ margin-right: 30px;
   line-height: 1.2;
   text-align: center;
 }
+.team-icons {
+  background-color: rgb(182, 53, 102);
+  display: flex;
+}
 .clients-list {
   background-color: rgb(171, 204, 223);
   display:flex;
-  text-align: center;
-  /* justify-content: center;
-  align-items: center; */ ?????????????
-  
 }
 .clients-list-item {
+  display: flex;
+ justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
