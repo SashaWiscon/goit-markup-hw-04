@@ -127,13 +127,13 @@ background-color: #212121;
   text-align: center;
 max-width: 1600px;
 height: 600px;
+/* background-size: или через ширину;??? */
 }  
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }                                   
 .hero-title {
-  /* background-color: purple; */
   width: 696px;
   /* text-align: center; */
   margin: 0 auto 30px;
@@ -169,7 +169,7 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-justify-content  color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
   text-align: center; 
 }
 .hidden {
@@ -201,24 +201,14 @@ width: 270px;
   align-items: center;
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
   background-color: #F5F4FA;
 }
 .advantages-icons-item {
   width: 70px;
   height: 70px;
 }
-/* .advantages-item::before { фон квадрата
-display: block;
-outline: 1px solid blueviolet;
-  height: 120px;
-left: 215px;
-top: 774px;
-content: "";
-background-size:contain;  
-background-color: #f5f4fa;}
-.icon-antenna::before { сама иконка в квадрате 
-  background-image: url(../images/icon-antenna.svg);
-} */
+
 .advantages-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -267,6 +257,7 @@ margin-right: 30px;
   .team-content {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 16px;
   }
   
 .team-name {
@@ -280,17 +271,45 @@ margin-right: 30px;
 }
 .team-position {
   margin-top: 0;
-  margin-bottom: 0;
+  margin: bottom 0;;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
 .team-icons {
-  background-color: rgb(180, 142, 157);
   display: flex;
+  margin: 0 auto 30px;
+  width: 206px;
+  height: 44px;
+}
+.team-icons-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.team-icons-item + .team-icons-item {
+  margin-left: 10px;
+}
+.team-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* background-color: rgb(206, 125, 125); */
+}
+.team-icons-link:hover,
+.team-icons-link:focus {
+  fill: var(--accent-text-color);
+}
+
+.icons-item-pict {
+width: 20px;
+height: 20px;
 }
 .clients-list {
-  background-color: rgb(171, 204, 223);
   display:flex;
 }
 .clients-list-item {
