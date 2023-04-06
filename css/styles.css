@@ -69,6 +69,7 @@ color: #000000;
 width: 16px;
 height: 12px;
 margin-right: 10px;
+fill: var(--primary-text-color);
 }
 .contacts-envelope:hover, 
 .contacts-envelope:focus {
@@ -78,6 +79,7 @@ margin-right: 10px;
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: var(--primary-text-color);
 }
 .contacts-smartphone:hover,
 .contacts-smartphone:focus {
@@ -112,6 +114,8 @@ margin-left: 40px;
   {margin-right: 40px;
   }
 .contacts-text {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -122,6 +126,7 @@ margin-left: 40px;
 .contacts-text:focus {
   color: var(--accent-text-color);
 }  
+
 .container {
   margin: 0 auto;
   padding-left: 15px;
@@ -262,6 +267,7 @@ margin-right: 30px;
     margin-top: 0;
   }
   .team-item {
+    background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
@@ -275,7 +281,6 @@ margin-right: 30px;
   .team-content {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 16px;
   }
   
 .team-name {
@@ -289,14 +294,14 @@ margin-right: 30px;
 }
 .team-position {
   margin-top: 0;
-  margin: bottom 0;;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
 .team-icons {
   display: flex;
-  margin: 0 auto 30px;
+  margin: 0 auto;
   width: 206px;
   height: 44px;
 }
@@ -366,22 +371,21 @@ border: 1px solid #2196F3;
   height: 60px;
 }
 
-                                 /* footer */
+                             /* footer */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
  background-color: #2F303A;} 
+ .footer-main {
+  display: flex;
+  align-items:baseline;
+ }
 .footer-logo {
  margin-top: 0;
  margin-bottom: 28px; 
 }   
 .footer-contacts {
   margin-right: 70px;
-}
-.footer-social {
-  /* background-color: rgb(166, 211, 190); */
-  padding-top: 72px;
-  padding-bottom: 100px;
 }
 .footer-social-title {
   margin-bottom: 20px;
